@@ -1,0 +1,7 @@
+/*container*/
+#pagesContainer {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}

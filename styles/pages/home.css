@@ -1,0 +1,49 @@
+.super-image{
+    background-image: url(https://i.imgur.com/NP1nelf.jpg);
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    height: 800px
+  }
+.TitreWeb{
+    border: 0;
+}
+h1{
+    font-size: 50px;
+}
+.Presentation{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 0%;
+    margin-top: 40px;
+    float: left;
+    max-width: 50%;
+}
+.Presentation a{ 
+    text-decoration: none;
+    font-size: 17px;
+}
+.Presentation b{
+    color: black;
+}
+.Presentation p{
+    font-size: 17px;
+}
+h2{
+    font-size: 35px;
+}
+.BackgroundImage{
+    user-select: none;
+}
+.nonjamais{
+    user-select: none;
+}
+.imagepresentation{
+    display: block;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+.jsplus{
+    display: block;
+    width: 100%;
+}

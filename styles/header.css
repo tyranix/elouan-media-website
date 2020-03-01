@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    line-height: 100px;
+    background-color: black;
+    user-select: none;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    text-align: left;
+    z-index: 10;
+}
+header ul{
+    margin: 0;
+}
+header li {
+    list-style: none;
+    padding-right: 25px;
+    font-size: 25px;
+    display: inline-block;
+}
+header li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.button4 {
+    background-color: black; /* Green */
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 12px;
+    transition: 0.2s color, 0.2s background-color;
+    display: inline-block;
+    user-select: none;
+    outline: none;
+}
+.button4:hover, .button4.selected {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: red;
+    color: white;
+    user-select: none;
+}

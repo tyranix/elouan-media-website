@@ -1,0 +1,88 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+.nonjamais{
+    user-select: none;
+}
+.boutonMail{
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.button1{
+    
+        background-color: white; /* Green */
+        border: 2px solid #4CAF50;
+        color: #4CAF50;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        user-select: none;
+}
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    color: white;
+    user-select: none;
+}
+.button2{
+    background-color: white; /* Green */
+    border: 2px solid rgb(255, 7, 222);
+    color: rgb(255, 7, 222);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    user-select: none;
+}
+.button2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    user-select: none;
+}
+.button3{
+        background-color: white; /* Green */
+        border: 2px solid rgb(0, 152, 223);
+        color: rgb(0, 152, 223);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        user-select: none;
+}
+.button3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(0, 152, 223);
+    color: white;
+    user-select: none;
+}
